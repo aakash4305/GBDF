@@ -13,6 +13,7 @@ Version 1.0 (07.17.2022)
 - [Abstract](#abstract)
 - [Database Properties](#database-properties)
 - [Download](#download)
+- [Grad-CAM Results](#grad-cam results)
 - [Citing](#citing)
 - [Acknowledgment](#acknowledgment)
 - [License](#license)
@@ -61,7 +62,7 @@ The annotations can be downloaded as xlsx file.
 
 
 ## Grad-CAM Results
-GRAD-CAM visualization of our best performing EfficientNet V2-L based deepfake detector for live and fake images for males and females is shown.  The detector was trained on GBDF dataset, For real images highly activated region is the cheek for females and the ocular region for males. For fake images, the mouth and cheek region for males and the complete face region for females are the most activated region. These results were consistent across the datasets depending on the deepfake generation technique.
+GRAD-CAM visualization of our best performing **EfficientNet V2-L** based deepfake detector for live and fake images for males and females is shown.  The detector was trained on GBDF dataset, For real images highly activated region is the cheek for females and the ocular region for males. For fake images, the mouth and cheek region for males and the complete face region for females are the most activated region. These results were consistent across the datasets depending on the deepfake generation technique.
 
 <img src="Fig3.png" width="700" >
 ## Citing
