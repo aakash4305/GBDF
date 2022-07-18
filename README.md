@@ -44,8 +44,7 @@ The GBDF dataset is created using FF++(c23 version), Celeb-DF, DeeperForensics-1
 to-end Face Swapping techniques) and Expression swapping (i.e., Face2Face and
 NeuralTextures) deepfake generation techniques. The majority of the videos in
 GBDF are from Caucasians. The ratio of real to fake videos in the GBDF dataset
-is 1 : 4. The GBDF is further divided into gender-balanced and subject inde-
-pendent training and testing subsets in the ratio of 70 : 30.
+is 1 : 4. The GBDF is further divided into gender-balanced and subject independent training and testing subsets in the ratio of 70 : 30.
 
 
 <img src="Fig2.png" width="700" >
@@ -55,7 +54,7 @@ pendent training and testing subsets in the ratio of 70 : 30.
 
 [GBDF](https://github.com/aakash4305/GBDF) provides gender annotations for deepfakes of the [FaceForesincs++](https://github.com/ondyari/FaceForensics) database,[Celeb-DF](https://github.com/yuezunli/celeb-deepfakeforensics) database,[Deeper Forensics-1.0](https://github.com/EndlessSora/DeeperForensics-1.0) database. 
 - To get the **Deepfake dataset**, please visit the [FF++,celeb-DF,DeeperForensics-1.0] websites (https://github.com/ondyari/FaceForensics,https://github.com/yuezunli/celeb-deepfakeforensics,https://github.com/EndlessSora/DeeperForensics-1.0) and download the datasets.
-- The **Gender annotations** of GBDF dataset are stored under [releases](). 
+- The **Gender annotations** of GBDF dataset are stored under [releases](https://github.com/aakash4305/GBDF). 
 The annotations can be downloaded as xlsx file.
 - The xlsx-file ("GBDF_training_labels.csv")  provides gender annotated version of the live and deepfake videos of 10,000 videos with 5000 each for males and females.
 - The attribute file contain the gender annotations for the training of GBDF, in that order.
