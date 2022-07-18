@@ -1,6 +1,6 @@
 # GBDF: Gender Balanced DeepFake Dataset
 
-<img src="images/maad_4_2.png" width="330" align="right" >
+<img src="Fig.png" width="330" align="right" >
 
 A publicly available gender-balanced and annotated deepfake dataset, GBDF, from FaceForensics++ (FF++), Celeb-DF, and Deeper Forensics-1.0 consisting of 10,000 live and fake videos generated using different identity and expression swapping deepfake generation techniques. The dataset consist of 10,000 videos with 5000 each for males and females with 1:4 real to fake ratio.
 - [Research Paper]()
