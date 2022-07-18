@@ -20,28 +20,19 @@ Version 1.0 (07.17.2022)
 
 ## Abstract
 
-Facial forgery by deepfakes has raised severe societal con-
-cerns. Several solutions have been proposed by the vision community
+Facial forgery by deepfakes has raised severe societal concerns. Several solutions have been proposed by the vision community
 to effectively combat the misinformation on the internet via automated
-deepfake detection systems. Recent studies have demonstrated that fa-
-cial analysis-based deep learning models can discriminate based on pro-
-tected attributes such as gender and race. For the commercial adoption
+deepfake detection systems. Recent studies have demonstrated that facialanalysis based deep learning models can discriminate based on protected attributes such as gender and race. For the commercial adoption
 and massive roll-out of the deepfake detection technology, it is vital to
-evaluate and understand the fairness (the absence of any prejudice or fa-
-voritism) of deepfake detectors across demographic variations (protected
+evaluate and understand the fairness (the absence of any prejudice or favoritism) of deepfake detectors across demographic variations (protected
 attributes). As the performance differential of deepfake detectors between
 demographic sub-groups would impact millions of people of the deprived
-sub-group. This paper aims to evaluate the fairness of the deepfake de-
-tectors across males and females. However, existing deepfake datasets are
+sub-group. This paper aims to evaluate the fairness of the deepfake detectors across males and females. However, existing deepfake datasets are
 not annotated with demographic labels to facilitate fairness analysis. To
 this aim, we manually annotated existing popular deepfake datasets with
-gender labels and evaluated the performance differential of current deep-
-fake detectors across gender. Our analysis on the gender-labeled version
-of the datasets suggests (a) current deepfake datasets have skewed dis-
-tribution across gender, and (b) commonly adopted deepfake detectors
-obtain unequal performance across gender with mostly males outper-
-forming females. Finally, we contributed a gender-balanced and anno-
-tated deepfake dataset, GBDF, to mitigate the performance differential
+gender labels and evaluated the performance differential of current deepfake detectors across gender. Our analysis on the gender-labeled version
+of the datasets suggests (a) current deepfake datasets have skewed distribution across gender, and (b) commonly adopted deepfake detectors
+obtain unequal performance across gender with mostly males outperforming females. Finally, we contributed a gender-balanced and annotated deepfake dataset, GBDF, to mitigate the performance differential
 and to promote research and development towards fairness-aware deep
 fake detectors
 For more details, please take a look at the [Research Paper]().
