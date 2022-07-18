@@ -66,8 +66,6 @@ GRAD-CAM visualization of our best performing **EfficientNet V2-L** based deepfa
 
 <img src="Fig3.png" width="700" >
 ## Citing
-
-
 If you use this work, please cite the following papers.
 
 
