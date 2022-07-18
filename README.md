@@ -2,7 +2,7 @@
 
 <img src="Fig.png" width="400" align="right" >
 
-A publicly available gender-balanced and annotated deepfake dataset, GBDF, from FaceForensics++ (FF++), Celeb-DF, and Deeper Forensics-1.0 consisting of 10,000 live and fake videos generated using different identity and expression swapping deepfake generation techniques. The dataset consist of 10,000 videos with 5000 each for males and females with 1:4 real to fake ratio.
+A publicly available gender-balanced annotated deepfake dataset, GBDF, from FaceForensics++ (FF++), Celeb-DF, and Deeper Forensics-1.0 consisting of 10,000 live and fake videos generated using different identity and expression swapping deepfake generation techniques. The dataset consist of 10,000 videos with 5000 each for males and females with 1:4 real to fake ratio.
 - [Research Paper]()
 - [Download Data]()
 
@@ -12,7 +12,6 @@ Version 1.0 (07.17.2022)
 
 - [Abstract](#abstract)
 - [Database Properties](#database-properties)
-- [Annotated Sample Images](#annotated-sample-images)
 - [Download](#download)
 - [Citing](#citing)
 - [Acknowledgment](#acknowledgment)
@@ -49,7 +48,7 @@ For more details, please take a look at the [Research Paper]().
 
 ## Database Properties
 
-The GBDF dataset is created using FF++(c23 version), Celeb-DF, DeeperForensics-1.0 and consist of 10,000 videos with 5000 each for males and females.As none of these existing deepfake datasets contain demographic information, we manually annotated ground truth gender labels for these datasets. The gender annotated version of the live and deepfake videos from these deepfakes datasets are merged to create GBDF dataset.Deepfakes in the GBDF dataset are created using different Identity Swapping
+The GBDF dataset is created using FF++(c23 version), Celeb-DF, DeeperForensics-1.0 and consist of 10,000 videos with 5000 each for males and females.As none of these existing deepfake datasets contain demographic information, we manually annotated ground truth gender labels for these datasets. The real/fake videos from these deepfakes datasets are merged to create GBDF dataset.Deepfakes in the GBDF dataset are created using different Identity Swapping
 (i.e., FaceSwap, FaceSwap-Kowalski, FaceShifter, Encoder-decoder style and End-
 to-end Face Swapping techniques) and Expression swapping (i.e., Face2Face and
 NeuralTextures) deepfake generation techniques. The majority of the videos in
@@ -62,12 +61,12 @@ pendent training and testing subsets in the ratio of 70 : 30.
 
 ## Download
 
-[GBDF]() provides gender annotations for deepfakes of the [FaceForesincs++]() database,[Celeb-DF]() database,[Deeper Forensics-1.0]() database. 
-- To get the **Deepfake dataset**, please visit the [VGGFace2 webside](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/data_infor.html) and download the images.
-- The **Gender annotations** of GBDF dataset are stored under [releases](https://github.com/pterhoer/MAAD-Face/releases/tag/MAADFACE). 
-The annotations can be downloaded either as csv or pickle file.
-- The csv-file ("MAAD-Face.csv") provides the labels for a single image in each row. The first entry of the row specifies the filename of the face image, followed by an identity marker and the 47 attribute annotations. The first row provides information for the different column entries.
-- The attribute files contain the gender annotations for the train of GBDF, in that order.
+[GBDF]() provides gender annotations for deepfakes of the [FaceForesincs++](https://github.com/ondyari/FaceForensics) database,[Celeb-DF](https://github.com/yuezunli/celeb-deepfakeforensics) database,[Deeper Forensics-1.0](https://github.com/EndlessSora/DeeperForensics-1.0) database. 
+- To get the **Deepfake dataset**, please visit the [FF++,celeb-DF,DeeperForensics-1.0] websites (https://github.com/ondyari/FaceForensics,https://github.com/yuezunli/celeb-deepfakeforensics,https://github.com/EndlessSora/DeeperForensics-1.0) and download the datasets.
+- The **Gender annotations** of GBDF dataset are stored under [releases](). 
+The annotations can be downloaded as csv file.
+- The csv-file ("GBDF.csv")  provides gender annotated version of the live and deepfake videos of 10,000 videos with 5000 each for males and females.
+- The attribute file contain the gender annotations for the train of GBDF, in that order.
 
 
 
@@ -76,57 +75,37 @@ The annotations can be downloaded either as csv or pickle file.
 ## Citing
 
 
-If you use this work, please cite the following papers as well as the [VGGFace2](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2) database.
+If you use this work, please cite the following papers.
 
 
 ```
-@article{DBLP:journals/tifs/TerhorstFKDKK21,
-  author    = {Philipp Terh{\"{o}}rst and
-               Daniel F{\"{a}}hrmann and
-               Jan Niklas Kolf and
-               Naser Damer and
-               Florian Kirchbuchner and
-               Arjan Kuijper},
-  title     = {MAAD-Face: {A} Massively Annotated Attribute Dataset for Face Images},
-  journal   = {{IEEE} Trans. Inf. Forensics Secur.},
-  volume    = {16},
-  pages     = {3942--3957},
-  year      = {2021},
-  url       = {https://doi.org/10.1109/TIFS.2021.3096120},
-  doi       = {10.1109/TIFS.2021.3096120},
-  timestamp = {Thu, 16 Sep 2021 18:05:24 +0200},
-  biburl    = {https://dblp.org/rec/journals/tifs/TerhorstFKDKK21.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{roessler2019faceforensicspp,
+	author = {Andreas R\"ossler and Davide Cozzolino and Luisa Verdoliva and Christian Riess and Justus Thies and Matthias Nie{\ss}ner},
+	title = {Face{F}orensics++: Learning to Detect Manipulated Facial Images},
+	booktitle= {International Conference on Computer Vision (ICCV)},
+	year = {2019}
 }
 
+
 ```
 
 ```
-@inproceedings{DBLP:conf/btas/TerhorstHKZDKK19,
-  author    = {Philipp Terh{\"{o}}rst and
-               Marco Huber and
-               Jan Niklas Kolf and
-               Ines Zelch and
-               Naser Damer and
-               Florian Kirchbuchner and
-               Arjan Kuijper},
-  title     = {Reliable Age and Gender Estimation from Face Images: Stating the Confidence
-               of Model Predictions},
-  booktitle = {10th {IEEE} International Conference on Biometrics Theory, Applications
-               and Systems, {BTAS} 2019, Tampa, FL, USA, September 23-26, 2019},
-  pages     = {1--8},
-  publisher = {{IEEE}},
-  year      = {2019},
-  url       = {https://doi.org/10.1109/BTAS46853.2019.9185975},
-  doi       = {10.1109/BTAS46853.2019.9185975},
-  timestamp = {Mon, 14 Sep 2020 18:11:03 +0200},
-  biburl    = {https://dblp.org/rec/conf/btas/TerhorstHKZDKK19.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{jiang2020deeperforensics1,
+  title={{DeeperForensics-1.0}: A Large-Scale Dataset for Real-World Face Forgery Detection},
+  author={Jiang, Liming and Li, Ren and Wu, Wayne and Qian, Chen and Loy, Chen Change},
+  booktitle={CVPR},
+  year={2020}
 }
 ```
 
-
-
+```
+@inproceedings{Celeb_DF_cvpr20,
+   author = {Yuezun Li, Xin Yang, Pu Sun, Honggang Qi and Siwei Lyu},
+   title = {Celeb-DF: A Large-scale Challenging Dataset for DeepFake Forensics},
+   booktitle= {IEEE Conference on Computer Vision and Patten Recognition (CVPR)},
+   year = {2020}
+}
+```
 ## Acknowledgment
 
 This work is supported in part from National Science Foundation (NSF) award
@@ -138,6 +117,6 @@ Program (DURIP) from Air Force Office of Scientific Research.
 ## License
 
 This project is licensed under the terms of the Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)) license.
-All images used in this project belongs to the [VGGFace2](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2). 
+All images used in this project belongs to the [FF++,celeb-DF,DeeperForensics-1.0](https://github.com/ondyari/FaceForensics,https://github.com/yuezunli/celeb-deepfakeforensics,https://github.com/EndlessSora/DeeperForensics-1.0). 
 The copyright of the images remains with the original owners.
-The copyright of the annotations remains with the Fraunhofer Institute for Computer Graphics Research IGD Darmstadt 2020.
+The copyright of the annotations remains with the VCBSL:Visual Computing and Biometric Security Lab, Wichita State University 2022.
