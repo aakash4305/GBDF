@@ -1,6 +1,6 @@
 # GBDF: Gender Balanced DeepFake Dataset
 
-<img src="Fig.png" width="400" align="right" >
+<img src="Fig1.png" width="400" align="right" >
 
 A publicly available gender-balanced annotated deepfake dataset, GBDF, from FaceForensics++ (FF++), Celeb-DF, and Deeper Forensics-1.0 consisting of 10,000 live and fake videos generated using different identity and expression swapping deepfake generation techniques. The dataset consist of 10,000 videos with 5000 each for males and females with 1:4 real to fake ratio.
 - [Research Paper]()
@@ -57,6 +57,7 @@ is 1 : 4. The GBDF is further divided into gender-balanced and subject inde-
 pendent training and testing subsets in the ratio of 70 : 30.
 
 
+<img src="Fig2.png" width="700" >
 
 
 ## Download
@@ -64,9 +65,9 @@ pendent training and testing subsets in the ratio of 70 : 30.
 [GBDF]() provides gender annotations for deepfakes of the [FaceForesincs++](https://github.com/ondyari/FaceForensics) database,[Celeb-DF](https://github.com/yuezunli/celeb-deepfakeforensics) database,[Deeper Forensics-1.0](https://github.com/EndlessSora/DeeperForensics-1.0) database. 
 - To get the **Deepfake dataset**, please visit the [FF++,celeb-DF,DeeperForensics-1.0] websites (https://github.com/ondyari/FaceForensics,https://github.com/yuezunli/celeb-deepfakeforensics,https://github.com/EndlessSora/DeeperForensics-1.0) and download the datasets.
 - The **Gender annotations** of GBDF dataset are stored under [releases](). 
-The annotations can be downloaded as csv file.
-- The csv-file ("GBDF.csv")  provides gender annotated version of the live and deepfake videos of 10,000 videos with 5000 each for males and females.
-- The attribute file contain the gender annotations for the train of GBDF, in that order.
+The annotations can be downloaded as xlsx file.
+- The xlsx-file ("GBDF_training_labels.csv")  provides gender annotated version of the live and deepfake videos of 10,000 videos with 5000 each for males and females.
+- The attribute file contain the gender annotations for the training of GBDF, in that order.
 
 
 
