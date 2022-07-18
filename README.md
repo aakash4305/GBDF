@@ -60,9 +60,10 @@ The annotations can be downloaded as xlsx file.
 - The attribute file contain the gender annotations for the training of GBDF, in that order.
 
 
+## Grad-CAM Results
+GRAD-CAM visualization of our best performing EfficientNet V2-L based deepfake detector for live and fake images for males and females is shown.  The detector was trained on GBDF dataset, For real images highly activated region is the cheek for females and the ocular region for males. For fake images, the mouth and cheek region for males and the complete face region for females are the most activated region. These results were consistent across the datasets depending on the deepfake generation technique.
 
-
-
+<img src="Fig3.png" width="700" >
 ## Citing
 
 
