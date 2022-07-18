@@ -4,7 +4,7 @@
 
 A publicly available gender-balanced annotated deepfake dataset, GBDF, from FaceForensics++ (FF++), Celeb-DF, and Deeper Forensics-1.0 consisting of 10,000 live and fake videos generated using different identity and expression swapping deepfake generation techniques. The dataset consist of 10,000 videos with 5000 each for males and females with 1:4 real to fake ratio.
 - [Research Paper]()
-- [Download Data]()
+- [Download Data](https://github.com/aakash4305/GBDF)
 
 Version 1.0 (07.17.2022)
 
@@ -62,7 +62,7 @@ pendent training and testing subsets in the ratio of 70 : 30.
 
 ## Download
 
-[GBDF]() provides gender annotations for deepfakes of the [FaceForesincs++](https://github.com/ondyari/FaceForensics) database,[Celeb-DF](https://github.com/yuezunli/celeb-deepfakeforensics) database,[Deeper Forensics-1.0](https://github.com/EndlessSora/DeeperForensics-1.0) database. 
+[GBDF](https://github.com/aakash4305/GBDF) provides gender annotations for deepfakes of the [FaceForesincs++](https://github.com/ondyari/FaceForensics) database,[Celeb-DF](https://github.com/yuezunli/celeb-deepfakeforensics) database,[Deeper Forensics-1.0](https://github.com/EndlessSora/DeeperForensics-1.0) database. 
 - To get the **Deepfake dataset**, please visit the [FF++,celeb-DF,DeeperForensics-1.0] websites (https://github.com/ondyari/FaceForensics,https://github.com/yuezunli/celeb-deepfakeforensics,https://github.com/EndlessSora/DeeperForensics-1.0) and download the datasets.
 - The **Gender annotations** of GBDF dataset are stored under [releases](). 
 The annotations can be downloaded as xlsx file.
