@@ -56,7 +56,7 @@ is 1 : 4. The GBDF is further divided into gender-balanced and subject independe
 - To get the **Deepfake dataset**, please visit the [FF++,celeb-DF,DeeperForensics-1.0] websites (https://github.com/ondyari/FaceForensics,https://github.com/yuezunli/celeb-deepfakeforensics,https://github.com/EndlessSora/DeeperForensics-1.0) and download the datasets.
 - The **Gender annotations** of GBDF dataset are stored under [releases](https://github.com/aakash4305/GBDF). 
 The annotations can be downloaded as xlsx file.
-- The xlsx-file ("GBDF_training_labels.csv")  provides gender annotated version of the live and deepfake videos of 10,000 videos with 5000 each for males and females.
+- The xlsx-file ("GBDF_training_labels.xlsx")  provides gender annotated version of the live and deepfake videos of 10,000 videos with 5000 each for males and females.
 - The attribute file contain the gender annotations for the training of GBDF, in that order.
 
 
