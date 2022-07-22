@@ -3,7 +3,7 @@
 <img src="Fig1.png" width="400" align="right" >
 
 A publicly available gender-balanced annotated deepfake dataset, GBDF, from FaceForensics++ (FF++), Celeb-DF, and Deeper Forensics-1.0 consisting of 10,000 live and fake videos generated using different identity and expression swapping deepfake generation techniques. The dataset consist of 10,000 videos with 5000 each for males and females with 1:4 real to fake ratio.
-- [Research Paper]()
+- [Research Paper](https://arxiv.org/abs/2207.10246)
 - [Download Data](https://github.com/aakash4305/GBDF)
 
 Version 1.0 (07.17.2022)
@@ -36,7 +36,7 @@ of the datasets suggests (a) current deepfake datasets have skewed distribution 
 obtain unequal performance across gender with mostly males outperforming females. Finally, we contributed a gender-balanced and annotated deepfake dataset, GBDF, to mitigate the performance differential
 and to promote research and development towards fairness-aware deep
 fake detectors
-For more details, please take a look at the [Research Paper]().
+For more details, please take a look at the [Research Paper](https://arxiv.org/abs/2207.10246).
 
 ## Database Properties
 
@@ -69,6 +69,26 @@ GRAD-CAM visualization of our best performing **EfficientNet V2-L** based deepfa
 
 If you use this work, please cite the following papers.
 
+```
+@misc{https://doi.org/10.48550/arxiv.2207.10246,
+  doi = {10.48550/ARXIV.2207.10246},
+  
+  url = {https://arxiv.org/abs/2207.10246},
+  
+  author = {Nadimpalli, Aakash Varma and Rattani, Ajita},
+  
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), Artificial Intelligence (cs.AI), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {GBDF: Gender Balanced DeepFake Dataset Towards Fair DeepFake Detection},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+```
 
 ```
 @inproceedings{roessler2019faceforensicspp,
